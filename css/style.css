@@ -19,8 +19,8 @@ font-family:  'Share Tech Mono', monospace;
 .logo{
   position: fixed;
   z-index: 2;
-  height: 95px;
-  width: 290px;
+  height: 45px;
+  width: 140px;
  /* margin-top: 1%;
   margin-left: 1%;*/
 }
@@ -44,7 +44,7 @@ font-family:  'Share Tech Mono', monospace;
 .leftbar{
   z-index: 1;
   position: fixed;
-  width: 350px;
+  width: 150px;
     
     max-height: none;
     height: 100%;
@@ -85,37 +85,39 @@ a:hover {
 }
 */
 a.list2{
-  top:230px ;
+  left: -30px;
+  top:130px ;
 }
 a.list3{
   position: absolute;
-  left: 20px;
-  top:320px ;
+  left: 10px;
+  top:220px ;
 }
 a.list4{
   left: -10px;
-  top:430px ;
+  top:260px ;
 }
 a.list5{
-  left: 30px;
-  top:520px ;
+  left: -0px;
+  top:300px ;
 }
 a.list6{
   left: -30px;
-  top:580px ;
+  top:340px ;
 }
 a.list3:hover:after,
 a.list3:focus:after {
-	width: 80%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
 }
 a {
+  cursor: pointer;
   position: absolute;
   margin-left: 40px;
   color: lightcyan;
-  top: 180px;
+  top: 100px;
   line-height: 1;
   font-family:  'Share Tech Mono', monospace;
-  font-size: 55px;
+  font-size: 23px;
 	position: relative;
   
 
@@ -124,6 +126,7 @@ a {
 
 }
 a:after {
+  cursor: pointer;
 	display: block;
 	position: absolute;
 	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
