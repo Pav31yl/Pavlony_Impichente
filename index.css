@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+#warn
+{
+    margin-top: 20%;
+    text-align: center;
+    font-size: 150px;
+font-family:  'Share Tech Mono', monospace;
+}
+.word {
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  }

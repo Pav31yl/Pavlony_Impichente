@@ -1,0 +1,42 @@
+html {
+ 
+}
+body {
+  display: flex;
+
+  background-color: #333;
+}
+.word {
+
+  position: absolute;
+  margin: auto;
+  color:#dbc6ba;
+  margin-top: 72%;
+  margin-left: 4%;
+  text-align: center;
+  font-size: 150px;
+font-family:  'Share Tech Mono', monospace;
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+.logo{
+  height: 95px;
+  width: 290px;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+@media (min-width: 1600px)
+{
+  .word {
+    position: absolute;
+    margin: auto;
+    color:#dbc6ba;
+    margin-top: 20%;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 150px;
+  font-family:  'Share Tech Mono', monospace;
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+
+  }
+}
