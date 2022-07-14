@@ -2,7 +2,7 @@
 body {
   display: flex;
 
-  background-color: #333;
+  background-color: rgb(247, 241, 241);
 }
 .word {
 
@@ -50,7 +50,7 @@ font-family:  'Share Tech Mono', monospace;
     height: 100%;
     left: 0%;
     top: 0%;
-    background: #494949;
+    background: #c6c6c6;
 }
 .x123{
 margin-top: 5000px;
@@ -113,7 +113,7 @@ a {
   cursor: pointer;
   position: absolute;
   margin-left: 40px;
-  color: lightcyan;
+  color: rgb(4, 78, 78);
   top: 100px;
   line-height: 1;
   font-family:  'Share Tech Mono', monospace;
@@ -132,7 +132,7 @@ a:after {
 	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
 	width: 0;/*задаём длинну линии до наведения курсора*/
 	height: 3px; /*задаём ширину линии*/
-	background-color: #e0ffff; /*задаём цвет линии*/
+	background-color: rgb(4, 78, 78);
 	content: "";
 	transition: width 0.15s ease-out; /*задаём время анимации*/
 }
@@ -140,4 +140,16 @@ a:after {
 a:hover:after,
 a:focus:after {
 	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+.main_img
+{
+  border: 4px;
+border-color: rgb(216, 6, 6);
+/*border-style: solid;*/
+  margin-left: 60%;
+  height: 900px;
+}
+.btn{
+  margin-left: -22%;
+  margin-top: 57%;
 }
