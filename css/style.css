@@ -21,6 +21,8 @@ font-family:  'Share Tech Mono', monospace;
   z-index: 2;
   height: 45px;
   width: 140px;
+  top: 10px;
+  left: 4px;
  /* margin-top: 1%;
   margin-left: 1%;*/
 }
@@ -146,10 +148,21 @@ a:focus:after {
   border: 4px;
 border-color: rgb(216, 6, 6);
 /*border-style: solid;*/
-  margin-left: 60%;
-  height: 900px;
+  margin-left: 5%;
+  height: 700px;
 }
 .btn{
-  margin-left: -22%;
-  margin-top: 57%;
+  margin-left: -18%;
+  margin-top: 43%;
+}
+
+.textblock{
+  height: 900px;
+  width: 700px;
+  margin-left: 12%;
+}
+h2
+{
+  font-family:  'Share Tech Mono', monospace;
+  text-align: center;
 }
